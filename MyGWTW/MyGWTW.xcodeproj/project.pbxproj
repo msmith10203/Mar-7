@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788E71F716E6EA70002AA4B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788E71F516E6E841002AA4B0 /* AVFoundation.framework */; };
+		788E726316E6F091002AA4B0 /* gone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 788E726216E6F091002AA4B0 /* gone.mp3 */; };
+		78A920EF16E5B5D500AF3CAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A920EE16E5B5D500AF3CAF /* UIKit.framework */; };
+		78A920F116E5B5D500AF3CAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A920F016E5B5D500AF3CAF /* Foundation.framework */; };
+		78A920F316E5B5D500AF3CAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A920F216E5B5D500AF3CAF /* CoreGraphics.framework */; };
+		78A920F916E5B5D500AF3CAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A920F716E5B5D500AF3CAF /* InfoPlist.strings */; };
+		78A920FB16E5B5D500AF3CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A920FA16E5B5D500AF3CAF /* main.m */; };
+		78A920FF16E5B5D500AF3CAF /* GWTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A920FE16E5B5D500AF3CAF /* GWTWAppDelegate.m */; };
+		78A9210116E5B5D500AF3CAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A9210016E5B5D500AF3CAF /* Default.png */; };
+		78A9210316E5B5D500AF3CAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A9210216E5B5D500AF3CAF /* Default@2x.png */; };
+		78A9210516E5B5D500AF3CAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A9210416E5B5D500AF3CAF /* Default-568h@2x.png */; };
+		78A9212816E5BF5600AF3CAF /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9212716E5BF5600AF3CAF /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		788E71F516E6E841002AA4B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		788E726216E6F091002AA4B0 /* gone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gone.mp3; sourceTree = "<group>"; };
+		78A920EB16E5B5D500AF3CAF /* MyGWTW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGWTW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A920EE16E5B5D500AF3CAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78A920F016E5B5D500AF3CAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78A920F216E5B5D500AF3CAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78A920F616E5B5D500AF3CAF /* MyGWTW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyGWTW-Info.plist"; sourceTree = "<group>"; };
+		78A920F816E5B5D500AF3CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78A920FA16E5B5D500AF3CAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78A920FC16E5B5D500AF3CAF /* MyGWTW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyGWTW-Prefix.pch"; sourceTree = "<group>"; };
+		78A920FD16E5B5D500AF3CAF /* GWTWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWTWAppDelegate.h; sourceTree = "<group>"; };
+		78A920FE16E5B5D500AF3CAF /* GWTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWTWAppDelegate.m; sourceTree = "<group>"; };
+		78A9210016E5B5D500AF3CAF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		78A9210216E5B5D500AF3CAF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		78A9210416E5B5D500AF3CAF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		78A9212616E5BF5600AF3CAF /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		78A9212716E5BF5600AF3CAF /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A920E816E5B5D500AF3CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788E71F716E6EA70002AA4B0 /* AVFoundation.framework in Frameworks */,
+				78A920EF16E5B5D500AF3CAF /* UIKit.framework in Frameworks */,
+				78A920F116E5B5D500AF3CAF /* Foundation.framework in Frameworks */,
+				78A920F316E5B5D500AF3CAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78A920E216E5B5D500AF3CAF = {
+			isa = PBXGroup;
+			children = (
+				78A920F416E5B5D500AF3CAF /* MyGWTW */,
+				78A920ED16E5B5D500AF3CAF /* Frameworks */,
+				78A920EC16E5B5D500AF3CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78A920EC16E5B5D500AF3CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A920EB16E5B5D500AF3CAF /* MyGWTW.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A920ED16E5B5D500AF3CAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788E71F516E6E841002AA4B0 /* AVFoundation.framework */,
+				78A920EE16E5B5D500AF3CAF /* UIKit.framework */,
+				78A920F016E5B5D500AF3CAF /* Foundation.framework */,
+				78A920F216E5B5D500AF3CAF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78A920F416E5B5D500AF3CAF /* MyGWTW */ = {
+			isa = PBXGroup;
+			children = (
+				78A920FD16E5B5D500AF3CAF /* GWTWAppDelegate.h */,
+				78A920FE16E5B5D500AF3CAF /* GWTWAppDelegate.m */,
+				78A9212616E5BF5600AF3CAF /* View.h */,
+				78A9212716E5BF5600AF3CAF /* View.m */,
+				78A920F516E5B5D500AF3CAF /* Supporting Files */,
+			);
+			path = MyGWTW;
+			sourceTree = "<group>";
+		};
+		78A920F516E5B5D500AF3CAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788E726216E6F091002AA4B0 /* gone.mp3 */,
+				78A920F616E5B5D500AF3CAF /* MyGWTW-Info.plist */,
+				78A920F716E5B5D500AF3CAF /* InfoPlist.strings */,
+				78A920FA16E5B5D500AF3CAF /* main.m */,
+				78A920FC16E5B5D500AF3CAF /* MyGWTW-Prefix.pch */,
+				78A9210016E5B5D500AF3CAF /* Default.png */,
+				78A9210216E5B5D500AF3CAF /* Default@2x.png */,
+				78A9210416E5B5D500AF3CAF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A920EA16E5B5D500AF3CAF /* MyGWTW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A9210816E5B5D500AF3CAF /* Build configuration list for PBXNativeTarget "MyGWTW" */;
+			buildPhases = (
+				78A920E716E5B5D500AF3CAF /* Sources */,
+				78A920E816E5B5D500AF3CAF /* Frameworks */,
+				78A920E916E5B5D500AF3CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGWTW;
+			productName = MyGWTW;
+			productReference = 78A920EB16E5B5D500AF3CAF /* MyGWTW.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A920E316E5B5D500AF3CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GWTW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Smith";
+			};
+			buildConfigurationList = 78A920E616E5B5D500AF3CAF /* Build configuration list for PBXProject "MyGWTW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78A920E216E5B5D500AF3CAF;
+			productRefGroup = 78A920EC16E5B5D500AF3CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A920EA16E5B5D500AF3CAF /* MyGWTW */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A920E916E5B5D500AF3CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A920F916E5B5D500AF3CAF /* InfoPlist.strings in Resources */,
+				78A9210116E5B5D500AF3CAF /* Default.png in Resources */,
+				78A9210316E5B5D500AF3CAF /* Default@2x.png in Resources */,
+				78A9210516E5B5D500AF3CAF /* Default-568h@2x.png in Resources */,
+				788E726316E6F091002AA4B0 /* gone.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A920E716E5B5D500AF3CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A920FB16E5B5D500AF3CAF /* main.m in Sources */,
+				78A920FF16E5B5D500AF3CAF /* GWTWAppDelegate.m in Sources */,
+				78A9212816E5BF5600AF3CAF /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78A920F716E5B5D500AF3CAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A920F816E5B5D500AF3CAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78A9210616E5B5D500AF3CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78A9210716E5B5D500AF3CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A9210916E5B5D500AF3CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyGWTW/MyGWTW-Prefix.pch";
+				INFOPLIST_FILE = "MyGWTW/MyGWTW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78A9210A16E5B5D500AF3CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyGWTW/MyGWTW-Prefix.pch";
+				INFOPLIST_FILE = "MyGWTW/MyGWTW-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A920E616E5B5D500AF3CAF /* Build configuration list for PBXProject "MyGWTW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A9210616E5B5D500AF3CAF /* Debug */,
+				78A9210716E5B5D500AF3CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A9210816E5B5D500AF3CAF /* Build configuration list for PBXNativeTarget "MyGWTW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A9210916E5B5D500AF3CAF /* Debug */,
+				78A9210A16E5B5D500AF3CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78A920E316E5B5D500AF3CAF /* Project object */;
+}
